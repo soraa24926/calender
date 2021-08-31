@@ -1,0 +1,55 @@
+/* 全体 */
+main{
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+}
+/* 表全体 */
+table{
+  border: 2px solid #eee;
+  margin: auto;
+}
+/* 表の各部署 */
+thead,
+tbody,
+tfoot{
+  background-color: #eee;
+}
+/* 各セル */
+th,
+td{
+  padding: 8px;
+  text-align: center;
+}
+/* 月移動今日移動ボタンに対して */
+#prev,
+#next,
+#today{
+  cursor: pointer;
+  /* テキストを選択不可に */
+  user-select: none;
+}
+/* 初めの列　日曜日 */
+tbody td:first-child{
+  color: red;
+}
+/* 土曜日 */
+tbody td:last-child{
+  color: blue;
+}
+
+/* 先月と来月 */
+td.disabled{
+  opacity: 0.4;
+}
+/* 今日 */
+td.today{
+  /* 太字 */
+  font-weight: bold;
+}
+
+
+footer{
+  /* 文字置く左右 */
+  text-align: right;
+  font-size: 15px;
+}
