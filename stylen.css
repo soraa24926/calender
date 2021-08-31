@@ -1,7 +1,7 @@
 /* 全体 */
 main{
   font-family: 'Courier New', monospace;
-  font-size: 14px;
+  font-size: 20px;
 }
 /* 表全体 */
 table{
@@ -36,7 +36,6 @@ tbody td:first-child{
 tbody td:last-child{
   color: blue;
 }
-
 /* 先月と来月 */
 td.disabled{
   opacity: 0.4;
